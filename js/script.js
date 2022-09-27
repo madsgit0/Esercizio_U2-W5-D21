@@ -13,10 +13,10 @@ document.getElementById('data-completa').innerHTML = stampaOggi
 
 //mostrare elementi singoli della data
 
-let giorno = oggi.getDay()
+let giorno = oggi.getDate()
 document.getElementById('giorno').innerHTML = giorno
 
-let mese = oggi.getMonth()
+let mese = oggi.getMonth()+1
 document.getElementById('mese').innerHTML = mese
 
 let anno = oggi.getFullYear()
